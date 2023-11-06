@@ -3,7 +3,6 @@
 
 
 
-
 This project focuses on Market Profile analysis using Python. Market Profile is a tool used by traders to visualize price movement and understand the distribution of trading activity. In this project, we leverage Python and libraries like yfinance for data retrieval, NumPy and Pandas for data cleaning, and Seaborn and Matplotlib for visualization. We aim to display price, volume, and time frame in a single chart, indicating the value area and POC (Point of Control) for a stock. Additionally, we identify trends where there are high concentrations of transactions with respect to the price of the stock.It helps traders identify areas of value, support, and resistance.
 
 
@@ -13,8 +12,8 @@ This project focuses on Market Profile analysis using Python. Market Profile is 
 
 1. **Price Levels**:
 
-   Market Profile divides the price levels into distinct increments or "TPOs" (Time Price Opportunities). Each TPO represents a price level at which trading occurred during a specific time period.
-   <img width="167" alt="tpo1" src="https://github.com/atharvarode/Market-Profile/assets/97606863/d5cfddf4-05ab-4ddf-b286-cc4f89094fc7">
+Market Profile divides the price levels into distinct increments or "TPOs" (Time Price Opportunities). Each TPO represents a price level at which trading occurred during a specific time period.
+<img width="167" alt="tpo1" src="https://github.com/atharvarode/Market-Profile/assets/97606863/d5cfddf4-05ab-4ddf-b286-cc4f89094fc7">
 
    
 
