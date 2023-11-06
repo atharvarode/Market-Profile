@@ -1,6 +1,6 @@
 # Market Profile Analysis with Python
 
-![Market Profile]![market_profile](https://github.com/atharvarode/Market-Profile/assets/97606863/9e3744dc-4296-4aa9-995b-805c360404f1)
+[market_profile](https://github.com/atharvarode/Market-Profile/assets/97606863/9e3744dc-4296-4aa9-995b-805c360404f1)
 
 
 This project focuses on Market Profile analysis using Python. Market Profile is a tool used by traders to visualize price movement and understand the distribution of trading activity. In this project, we leverage Python and libraries like yfinance for data retrieval, NumPy and Pandas for data cleaning, and Seaborn and Matplotlib for visualization. We aim to display price, volume, and time frame in a single chart, indicating the value area and POC (Point of Control) for a stock. Additionally, we identify trends where there are high concentrations of transactions with respect to the price of the stock.It helps traders identify areas of value, support, and resistance.
@@ -12,14 +12,14 @@ This project focuses on Market Profile analysis using Python. Market Profile is 
 
 1. **Price Levels**:
 
-   Market Profile divides the price levels into distinct increments or "TPOs" (Time Price Opportunities). Each TPO represents a price level at which trading occurred during a specific time period.<img width="167" alt="tpo1" src="https://github.com/atharvarode/Market-Profile/assets/97606863/d5cfddf4-05ab-4ddf-b286-cc4f89094fc7">
+   Market Profile divides the price levels into distinct increments or "TPOs" (Time Price Opportunities). Each TPO represents a price level at which trading occurred during a specific time period.
+<img width="167" alt="tpo1" src="https://github.com/atharvarode/Market-Profile/assets/97606863/d5cfddf4-05ab-4ddf-b286-cc4f89094fc7">
 
    
 
 3. **Letter Assignment**:
    - **Single Letters (A, B, C, etc.):** These represent the initial letters assigned to each TPO during a trading session.
-   - **Split Letters (e.g., A/B, B/C, etc.):** If trading spans multiple price levels within a TPO, the letter can be split to indicate higher or lower value within that TPO.
-<img width="175" alt="tpo2" src="https://github.com/atharvarode/Market-Profile/assets/97606863/7409e3a7-1e45-427f-94da-30d4b2631ad8">
+   - **Split Letters (e.g., A/B, B/C, etc.):** If trading spans multiple price levels within a TPO, the letter can be split to indicate higher or lower value within that TPO. <img width="175" alt="tpo2" src="https://github.com/atharvarode/Market-Profile/assets/97606863/7409e3a7-1e45-427f-94da-30d4b2631ad8">
 
 ### Basic Algorithm for Market Profile:
 
